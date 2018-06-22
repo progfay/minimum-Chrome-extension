@@ -1,0 +1,11 @@
+
+{
+  "name": "minimum-Chrome-extension",
+  "version": "1",
+  "manifest_version": 2,
+  "description": "Minimum template of Chrome extension",
+  "content_scripts": [{
+    "matches": ["https://www.google.co.jp/*"],
+    "js": ["script.js"]
+  }]
+}
